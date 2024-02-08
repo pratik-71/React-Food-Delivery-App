@@ -12,7 +12,7 @@
 
 /* Root varibale  */
 
-:root {
+ :root {
   /* Fonts Family */
   --roboto-font: "Roboto", sans-serif;
   --lilita-font: "Lilita One", cursive;
@@ -29,7 +29,7 @@
   --grey: #757575;
   --brown: #6f5e4d;
   --bg-coffee: #642f21;
-}
+} 
 body, html{
   font-size: 1rem;
   font-family: var(--roboto-font);

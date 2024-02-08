@@ -1,10 +1,17 @@
 import React from 'react'
+import Layout from '../../components/layout/Layout'
+import Section1 from './Section1'
+
+import "../../styles/Home_style.css"
 
 const Home = () => {
   return (
-    <div>
-      <h1>wow</h1>
-    </div>
+    <>
+    <Layout>
+      {/* Home section hero banner */}
+      <Section1/>
+    </Layout>
+    </>
   )
 }
 
